@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WGVideoEditView_Example' do
+  pod 'WGVideoEditView', :path => '../'
+
+  target 'WGVideoEditView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
