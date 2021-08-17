@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let view = WGVideoEffectsView.init(frame: CGRect.init(x: 0, y: 100, width: UIScreen.main.bounds.width, height: 300))
         self.view.addSubview(view)
+        // 123
     }
 
     override func didReceiveMemoryWarning() {
